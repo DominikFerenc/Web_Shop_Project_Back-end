@@ -11,3 +11,7 @@ spring:
     console:
       enabled: true
       path: '/console'
+
+  spring:
+    datasource:
+      url: "jdbc:h2:mem:product"
