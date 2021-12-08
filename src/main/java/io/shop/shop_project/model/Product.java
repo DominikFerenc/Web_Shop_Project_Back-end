@@ -18,6 +18,6 @@ public class Product {
     //@NotNull(message = "Product name is required!")
     private String title;
     private Double price;
-    private String descripion;
+    private String description;
     private String picturelUrl;
 }
