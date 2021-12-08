@@ -1,0 +1,13 @@
+server:
+  port: 9010
+spring:
+  main:
+    banner-mode: off
+  liquibase:
+    change-log: db/changelog/db.changelog-master.yaml
+    default-schema: products
+    enabled: false
+  h2:
+    console:
+      enabled: true
+      path: '/console'
