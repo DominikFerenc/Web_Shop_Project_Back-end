@@ -11,7 +11,8 @@ spring:
     console:
       enabled: true
       path: '/console'
-
-  spring:
-    datasource:
-      url: "jdbc:h2:mem:product"
+  datasource:
+    url: 'jdbc:h2:file:/home/havelock/Web_Shop_Project_Back-end/Shop_h2_db'
+  jpa:
+    hibernate:
+      ddl-auto: update
