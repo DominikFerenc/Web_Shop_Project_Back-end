@@ -13,7 +13,7 @@ public interface ProductController {
 
 
 
-    @ApiOperation(value = "Getting prducts from db")
+    @ApiOperation(value = "Getting products from db")
     @GetMapping(value = "{id}")
     ResponseEntity<Product> getProductByid(@PathVariable Long id);
 
