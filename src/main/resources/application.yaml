@@ -12,7 +12,7 @@ spring:
       enabled: true
       path: '/console'
   datasource:
-    url: 'jdbc:h2:file:/home/havelock/Web_Shop_Project_Back-end/target/Shop_h2_db'
+    url: 'jdbc:h2:file:/home/dferenc/IdeaProjects/Shop_Project/target/Shop_h2_db'
   jpa:
     hibernate:
       ddl-auto: update
